@@ -1,17 +1,6 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
-<suite name="Suite1" verbose="1" >
-
-    <test name="Regression1">
-        <parameter name="nameParam" value="Roxy"/>
-        <classes>
-            <class name="myprojects.automation.testng.tests.ProductCreationTest"/>
-        </classes>
-    </test>
-</suite>
-
-
-<!--<suite name="ProductCreationSuite" parallel="tests" >
+<suite name="ProductCreationSuite" parallel="tests" >
 
     <test name="ChromeTest">
         <parameter name="browser" value="chrome"/>
@@ -34,4 +23,4 @@
         </classes>
     </test>
 
-</suite>-->
+</suite>
